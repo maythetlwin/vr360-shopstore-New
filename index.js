@@ -299,17 +299,17 @@
     var iconWrapper = document.createElement('div');
     iconWrapper.classList.add('info-hotspot-icon-wrapper');
     var icon = document.createElement('img');
-    icon.src = 'img/info.png';
-    icon.classList.add('info-hotspot-icon');
-    iconWrapper.appendChild(icon);
+    // icon.src = 'img/info.png';
+    // icon.classList.add('info-hotspot-icon');
+    // iconWrapper.appendChild(icon);
 
     // Create title element.
-    var titleWrapper = document.createElement('div');
-    titleWrapper.classList.add('info-hotspot-title-wrapper');
-    var title = document.createElement('div');
-    title.classList.add('info-hotspot-title');
-    title.innerHTML = hotspot.title;
-    titleWrapper.appendChild(title);
+    // var titleWrapper = document.createElement('div');
+    // titleWrapper.classList.add('info-hotspot-title-wrapper');
+    // var title = document.createElement('div');
+    // title.classList.add('info-hotspot-title');
+    // title.innerHTML = hotspot.title;
+    // titleWrapper.appendChild(title);
 
     // Create close element.
     var closeWrapper = document.createElement('div');
@@ -321,7 +321,7 @@
 
     // Construct header element.
     header.appendChild(iconWrapper);
-    header.appendChild(titleWrapper);
+    //header.appendChild(titleWrapper);
     header.appendChild(closeWrapper);
 
     // Create text element.
