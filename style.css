@@ -591,15 +591,16 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 .info-hotspot .info-hotspot-close-wrapper {
   position: absolute;
   margin-top: -270px;
-  margin-left: -400;
-  margin-bottom: -200;
+  margin-left: -100px;
+  margin-bottom: -200px;
   left: 480px;
-  top: 20px;
+  top: 15px;
   height: 40px;
   width: 40px;
   border-top-right-radius: 5px;
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(76, 139, 223);
   visibility: hidden;
+  border-radius: 50px;
   /* -ms-transform: perspective(200px) rotateY(90deg);
   -webkit-transform: perspective(200px) rotateY(90deg);
   transform: perspective(200px) rotateY(90deg);
@@ -635,6 +636,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 70%;
   height: 70%;
   margin-left: 15%;
+  margin-top: 15%;
 }
 
 .info-hotspot .info-hotspot-text {
@@ -642,8 +644,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   margin-top: -270px;
   margin-left: -400;
   margin-bottom: -200;
-  width: 500px;
-  height: 600px;
+  width: 400px;
+  height: 550px;
   max-height: 600px;
   text-align: center;
   padding: 10px;
@@ -872,4 +874,9 @@ body.view-control-buttons .viewControlButton {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
+}
+
+.photo {
+  width: 350px;
+  height: 380px;
 }
